@@ -2,7 +2,6 @@ require("@nomiclabs/hardhat-waffle");
 const fs = require('fs');
 
 const infuraProjectId = "2905ec92fefe4d968a08e115d3dd7159"
-
 const metaMaskPrivateKey = fs.readFileSync(".secret").toString()
 // const privateKey = fs.readFileSync(".secret").toString().trim() || "01234567890123456789";
 // const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
